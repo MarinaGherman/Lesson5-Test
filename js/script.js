@@ -11,7 +11,7 @@ let menu = document.querySelector('.menu'),
     menu.replaceChild(menuItem[1], menuItem[2]);
     menu.insertBefore(menuItem[2], menuItem[1]);
     adv.remove();
-    const answer = prompt("Do you like Aplle?");
+    const answer = prompt("Do you like Apple?");
           ptpt.innerText = answer;
     document.body.style.background = 'url(img/apple_true.jpg)';
 
